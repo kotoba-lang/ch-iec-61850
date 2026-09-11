@@ -193,7 +193,7 @@ a monotonic sequence number.
 ## Verify
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
 
 Errors are returned, never thrown, as `[:error kw data]` with a namespaced
