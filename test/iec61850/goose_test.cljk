@@ -1,6 +1,6 @@
 (ns iec61850.goose-test
   (:require [asn1.core :as asn1]
-            [clojure.test :refer [deftest is testing]]
+            [kotoba.test :refer [deftest is testing]]
             [iec61850.appdu :as appdu]
             [iec61850.goose :as goose]))
 
