@@ -1,6 +1,6 @@
 (ns iec61850.data-test
   (:require [asn1.core :as asn1]
-            [clojure.test :refer [deftest is testing]]
+            [kotoba.test :refer [deftest is testing]]
             [iec61850.data :as data]))
 
 (defn- round-trip [[choice _ :as v]]

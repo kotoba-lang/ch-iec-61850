@@ -1,5 +1,5 @@
 (ns iec61850.utctime-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [iec61850.utctime :as ut]))
 
 (deftest round-trip
